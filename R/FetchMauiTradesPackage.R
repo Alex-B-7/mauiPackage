@@ -161,7 +161,7 @@ fFetchMauiTrades <- function(){
     tbbl2 <- fFile2FromArrow()
     tbbl3 <- fFile3FromArrow()
     tbbl4 <- fFile4FromArrow()
-    browser()
+    #browser()
     cat(paste0('fetchMauiTrades.R::fInsFromArrow Complete.  ', Sys.time(), '\n'))
   }
 
@@ -176,4 +176,3 @@ cat(paste0('=======================================', '\n'))
 fFetchMauiTrades()
 cat(paste0('========================================', '\n'))
 cat(paste0('FetchMauiTrades.R:: Complete. ', Sys.time(), '\n'))
-}
